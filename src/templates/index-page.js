@@ -8,6 +8,15 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
+const blueFlagPartStyle = {
+  backgroundColor: "#0057B7",
+  position: "fixed",
+  top: 0,
+  left: 0,
+  height: "50%",
+  width: "100%",
+};
+
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
   image,
@@ -18,14 +27,18 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const heroImage = getImage(image) || image;
+  // const heroImage = getImage(image) || image;
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
+      <div id="bluePartOfFlagBG" style={blueFlagPartStyle} />
+      {/*  <FullWidthImage img={heroImage} title={title} subheading={subheading} /> */}
       <section className="section section--gradient">
         <div className="container">
-          <div className="section">
+          <div
+            className="section"
+            style={{ backgroundColor: "white", padding: "6rem 3rem" }}
+          >
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">

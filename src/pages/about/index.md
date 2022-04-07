@@ -1,19 +1,29 @@
 ---
-templateKey: 'about-page'
+templateKey: "about-page"
 path: /about
-title: About our values
+title: About ...
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### The song lyrics
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+I ([Robert Austin](https://robert.grumbly.games)) wrote them. I thought there should be a pro-Ukraine song in English, for the English-speaking world to sing to show their solidarity with the people of Ukrainian. I'm publishing the lyrics here under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). That means that if you write music to go with these lyrics and it becomes a hit and you make a million dollars, you don't have to give me any. Just give me credit as the lyricist.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### The music
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+There isn't any! Yet.
+
+That's what this site is for, to try to convince other people to write music to go with the words. I'm pretty sure that if enough people see this, make up their own music, record the song, share it, pass it around, remix it, that eventually some good tune will become the 'standard' one that everyone agrees fits the song best. Or not. I'm fine with it being played lots of different ways.
+
+If you do write music that you think is pretty good, and are willing to share it here, I would love to post sheet music, guitar tabs, whatever for the song here. So not everyone has to write their own. 😉
+
+### If I write a great song with these lyrics, is it still my song?
+
+Yes! I'm putting the lyrics out there for anyone. Your work, the hard part of the song, writing the music, is still yours. You can sell it. You can demand people pay you royalties if they perform it, whatever. It would be cool if you did release your music under the same license, so people can freely build on it without worrying about copyright issues, but you don't have to.
+
+### I don't like the lyrics. Can I change them?
+
+Sure, go ahead.
+
+### Why do this?
+
+Because Ukraine is a great place full of great people, and it's suffering terribly right now. If you're like me and you watch what's happening and you feel helpless, maybe singing a song will make you feel better. Or make someone else feel better. Or if you're really good, you can sing a song to raise money to send to Ukraine. They can use it.
