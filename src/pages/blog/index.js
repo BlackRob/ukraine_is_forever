@@ -17,7 +17,7 @@ export default class BlogIndexPage extends React.Component {
                 padding: "1rem 2rem",
               }}
             >
-              Latest Content
+              More Good Stuff
             </h1>
           </div>
           <div className="container">

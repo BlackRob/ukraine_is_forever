@@ -1,6 +1,7 @@
 ---
 templateKey: "about-page"
 path: /about
+title: about
 ---
 
 ### The song lyrics

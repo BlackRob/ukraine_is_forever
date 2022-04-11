@@ -11,40 +11,32 @@ import Lyrics from "../components/Lyrics";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  //image,
-  //title,
+  title,
   heading,
   subheading,
-  mainpitch,
   description,
-  intro,
 }) => {
-  // const heroImage = getImage(image) || image;
-
   return (
     <div>
-      {/*  <FullWidthImage img={heroImage} title={title} subheading={subheading} /> */}
       <section className="section section--gradient">
         <div className="container whiteBG">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  {/* <div className="content">
-                    <div className="tile">
-                      <h1 className="title">{mainpitch.title}</h1>
-                    </div>
-  </div> */}
                   <div className="columns">
                     <div className="column is-12">
                       <h3 className="has-text-weight-semibold is-size-3">
-                        {heading}
+                        A song for Ukraine, in English
                       </h3>
-                      <p>{description}</p>
                     </div>
                   </div>
                   <div className="tile">
-                    <h3 className="subtitle">{subheading}</h3>
+                    <p>
+                      There didn't seem to be any good songs in English about
+                      Ukraine, so I wrote one. But I need your help, Internet,
+                      to finish it!
+                    </p>
                   </div>
                   <Lyrics />
                   <div className="column is-12">
@@ -69,30 +61,22 @@ export const IndexPageTemplate = ({
 };
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
 };
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark;
+  //const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        title={"Ukraine is forever"}
+        heading="Ukraine is forever"
+        subheading="A Song for Ukraine, in English"
+        description="There didn't seem to be any good songs in English about Ukraine, so I wrote one. But I need your help, Internet, to finish it!"
       />
     </Layout>
   );
@@ -108,36 +92,15 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-export const pageQuery = graphql`
+/*export const pageQuery = graphql`
   query IndexPageTemplate {
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
+      heading
+      subheading
+      description
     }
   }
-`;
+`;*/
