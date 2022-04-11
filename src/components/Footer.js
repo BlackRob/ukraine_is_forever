@@ -1,49 +1,55 @@
 import * as React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 
-import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
+import logo from "../img/logo_black.svg";
+// import facebook from "../img/social/facebook.svg";
+// import instagram from "../img/social/instagram.svg";
+// import twitter from "../img/social/twitter.svg";
+// import vimeo from "../img/social/vimeo.svg";
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
-          />
+      <footer className="footer has-text-black-ter">
+        <div
+          className="content has-text-centered"
+          style={{ marginBottom: "4em" }}
+        >
+          <p>
+            <img
+              src={logo}
+              alt="Ukraine is forever"
+              style={{ width: "16em", height: "4em" }}
+            />
+          </p>
+          <p>
+            <a
+              className="has-text-centered is-size-4"
+              href="https://war.ukraine.ua/support-ukraine/"
+            >
+              Want to help Ukraine but can't sing? Click here!
+            </a>
+          </p>
         </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
+        {/*<div className="content has-text-centered has-text-black-ter">
+          <div className="container has-text-black-ter">
             <div style={{ maxWidth: "100vw" }} className="columns">
               <div className="column is-4">
                 <section className="menu">
-                  <ul className="menu-list">
+                    <ul className="menu-list">
                     <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
+                  <Link
+                    className="navbar-item"
+                    to="https://war.ukraine.ua/support-ukraine/"
+                  >
+                    How to help Ukraine
+                  </Link>
+                   </li>
                     <li>
                       <Link className="navbar-item" to="/contact/examples">
                         Form Examples
                       </Link>
-                    </li>
+                     </li> 
                     <li>
                       <a
                         className="navbar-item"
@@ -53,7 +59,7 @@ const Footer = class extends React.Component {
                       >
                         Admin
                       </a>
-                    </li>
+                    </li> 
                   </ul>
                 </section>
               </div>
@@ -102,11 +108,11 @@ const Footer = class extends React.Component {
                     alt="Vimeo"
                     style={{ width: "1em", height: "1em" }}
                   />
-                </a>
+                </a> 
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </footer>
     );
   }

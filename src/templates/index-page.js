@@ -1,26 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+// import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
+// import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
-
-const blueFlagPartStyle = {
-  backgroundColor: "#0057B7",
-  position: "fixed",
-  top: 0,
-  left: 0,
-  height: "50%",
-  width: "100%",
-};
+import Lyrics from "../components/Lyrics";
+// import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
-  image,
-  title,
+  //image,
+  //title,
   heading,
   subheading,
   mainpitch,
@@ -31,49 +23,38 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <div id="bluePartOfFlagBG" style={blueFlagPartStyle} />
       {/*  <FullWidthImage img={heroImage} title={title} subheading={subheading} /> */}
       <section className="section section--gradient">
-        <div className="container">
-          <div
-            className="section"
-            style={{ backgroundColor: "white", padding: "6rem 3rem" }}
-          >
+        <div className="container whiteBG">
+          <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="content">
+                  {/* <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
-                    <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
-                    </div>
-                  </div>
+  </div> */}
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      <h3 className="has-text-weight-semibold is-size-3">
                         {heading}
                       </h3>
                       <p>{description}</p>
                     </div>
                   </div>
-                  <Features gridItems={intro.blurbs} />
-                  <div className="columns">
-                    <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
-                      </Link>
-                    </div>
+                  <div className="tile">
+                    <h3 className="subtitle">{subheading}</h3>
                   </div>
+                  <Lyrics />
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      Latest stories
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      Shared versions of the song
                     </h3>
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
-                        Read more
+                        See more
                       </Link>
                     </div>
                   </div>

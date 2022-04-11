@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
+import BlueFlagPart from "../components/BlueFlagPart";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./all.sass";
@@ -48,6 +49,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
+      <BlueFlagPart />
       <Navbar />
       <div>{children}</div>
       <Footer />

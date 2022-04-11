@@ -10,7 +10,19 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
-      <div className="container">
+      <div className="full-width-text-container margin-top-0">
+        <h1
+          className="has-text-weight-bold is-size-2"
+          style={{
+            backgroundColor: "transparent",
+            color: "white",
+            padding: "1rem 2rem",
+          }}
+        >
+          About ...
+        </h1>
+      </div>
+      <div className="container whiteBG">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">
