@@ -35,10 +35,32 @@ export const IndexPageTemplate = ({
                     <p>
                       There didn't seem to be any good songs in English about
                       Ukraine, so I wrote one. But I need your help, Internet,
-                      to finish it!
+                      to finish it! Sing it yourself, make up a tune to go with
+                      it, share it. If you come up with something good, send it
+                      my way and I'll post it here. I can't play any
+                      instruments, and I have a voice that makes children cry,
+                      but this is what the song sounds like to me:
+                      <figure>
+                        <figcaption>"Ukraine is Forever"</figcaption>
+                        <audio
+                          controls
+                          preload="metadata"
+                          src="/audio/UIF_shared_01.mp3"
+                        >
+                          Your browser does not support the
+                          <code>audio</code> element.
+                        </audio>
+                      </figure>
+                      You can do better! Try it!
                     </p>
                   </div>
+                  <hr />
+
+                  <h4 className="has-text-weight-semibold is-size-4">
+                    The lyrics:
+                  </h4>
                   <Lyrics />
+                  <hr />
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-3">
                       Shared versions of the song
