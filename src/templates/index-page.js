@@ -19,18 +19,23 @@ export const IndexPageTemplate = ({
   return (
     <div>
       <section className="section section--gradient">
+        <div className="full-width-text-container margin-top-0">
+          <h1
+            className="has-text-weight-bold is-size-2"
+            style={{
+              backgroundColor: "transparent",
+              color: "white",
+              padding: "1rem 2rem",
+            }}
+          >
+            A song for Ukraine, in English
+          </h1>
+        </div>
         <div className="container whiteBG">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
                 <div className="content">
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-3">
-                        A song for Ukraine, in English
-                      </h3>
-                    </div>
-                  </div>
                   <div className="tile">
                     <p>
                       There didn't seem to be any good songs in English about

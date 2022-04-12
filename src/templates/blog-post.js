@@ -20,14 +20,23 @@ export const BlogPostTemplate = ({
   return (
     <section className="section">
       {helmet || ""}
+      <div className="full-width-text-container margin-top-0">
+        <h1
+          className="has-text-weight-bold is-size-2"
+          style={{
+            backgroundColor: "transparent",
+            color: "white",
+            padding: "1rem 2rem",
+          }}
+        >
+          {title}
+        </h1>
+      </div>
       <div className="container content whiteBG">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
             <p>{description}</p>
-            <PostContent content={content} />
+            <PostContent className="content" content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
