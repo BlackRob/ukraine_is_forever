@@ -41,8 +41,12 @@ const TemplateWrapper = ({ children }) => {
         />
         <meta name="theme-color" content="#fff" />
 
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="ukraine is forever" />
+        <meta
+          property="og:description"
+          content="a song for Ukraine in English"
+        />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"

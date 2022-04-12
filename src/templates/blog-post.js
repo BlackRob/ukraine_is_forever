@@ -32,7 +32,7 @@ export const BlogPostTemplate = ({
           {title}
         </h1>
       </div>
-      <div className="container content whiteBG">
+      <div className="container content whiteBG" style={{ paddingTop: `4rem` }}>
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <p>{description}</p>
