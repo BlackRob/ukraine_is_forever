@@ -11,14 +11,13 @@ const Lyrics = () => {
     <div id="UIF_lyrics">
       <h3>Ukraine is Forever</h3>
       <p>
-        <span style={wrapIndent}>We’ve been here a thousand years,</span> <br />
-        <span style={wrapIndent}>Invaders come and go.</span> <br />
-        <span style={wrapIndent}>Now it’s Russia’s turn to learn</span> <br />
-        <span style={wrapIndent}>What we have always known.</span>
+        We’ve been here a thousand years, <br />
+        Invaders come and go. <br />
+        Now it’s Russia’s turn to learn <br />
+        What we have always known.
       </p>
       <p>
-        <span style={wrapIndent}>That people born on this rich land</span>{" "}
-        <br />
+        That people born on this rich land <br />
         Will fight until they’re free. <br />
         It’s not because we want to— <br />
         Seems that’s just our destiny.
@@ -40,9 +39,9 @@ const Lyrics = () => {
         Ukraine is forever! <br />
       </p>
       <p>
-        <span style={wrapIndent}>The Russians like to talk about</span> <br />
+        The Russians like to talk about <br />
         Some rabid fantasy, <br />
-        <span style={wrapIndent}>Where they’re always the hero—</span> <br />
+        Where they’re always the hero— <br />
         We remember differently.
       </p>
       <p>
@@ -52,18 +51,18 @@ const Lyrics = () => {
         It’ll never happen again.
       </p>
       <p>
-        <span style={wrapIndent}>Never again to Moscow’s thumb,</span> <br />
+        Never again to Moscow’s thumb, <br />
         Never again to tyranny. <br />
-        <span style={wrapIndent}>Ukrainians will rule themselves,</span> <br />
+        Ukrainians will rule themselves, <br />
         We will write our history. <br />
       </p>
       <p style={{ paddingLeft: "2rem" }}>
         <i>chorus</i>
       </p>
       <p>
-        <span style={wrapIndent}>The Russians need to understand</span> <br />
+        The Russians need to understand <br />
         That they can never win. <br />
-        <span style={wrapIndent}>That even if they knock us down,</span> <br />
+        That even if they knock us down, <br />
         Ukraine will rise again.
       </p>
       <p>
@@ -74,11 +73,8 @@ const Lyrics = () => {
       </p>
       <p>
         It’s not that we hate Russians, <br />
-        <span style={wrapIndent}>Some of them** are so, so brave.</span> <br />
-        <span style={wrapIndent}>
-          We hope someday they’ll join us when
-        </span>{" "}
-        <br />
+        Some of them** are so, so brave. <br />
+        We hope someday they’ll join us when <br />
         We dance on Putin’s grave.
       </p>
       <p style={{ paddingLeft: "2rem" }}>
