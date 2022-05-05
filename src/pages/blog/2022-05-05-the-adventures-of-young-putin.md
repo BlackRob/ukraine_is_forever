@@ -6,7 +6,8 @@ description: A comic I drew mocking that bitch Putin.
 featuredpost: false
 featuredimage: /img/young_putin.png
 tags:
-  - comic
+  - comics
+  - jokes
 ---
 
 
