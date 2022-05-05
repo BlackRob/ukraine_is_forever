@@ -9,6 +9,4 @@ tags:
   - comics
   - jokes
 ---
-
-
-![a comic mocking putin](/img/young_putin.png "the adventures of young putin, 1")
+![A comic strip mocking Putin.](/img/young_putin.png "The Adventures of Young Putin, 1")
